@@ -76,6 +76,16 @@ knitr::kable(head(iris), format = 'html')
 4. Generate references
  * Use 'PrintBibliography(myBib)' to automatically generate lists.
 
+---
 
+# Pull to Github
 
+git status
 
+git add .
+
+git commit -m "..."
+
+git push
+
+!! maxmium 50mb
