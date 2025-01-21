@@ -1,0 +1,81 @@
+---
+title: "Week 2"
+subtitle: "Xaringan"
+author: "Ruonan Zhu"
+date: "2025/01/21"
+output:
+  xaringan::moon_reader:
+    css: [default, zh-CN.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Basic use 
+1. use (---) between two slides.
+2. use (# ##) to set the title and title size
+* The way points are used
+ * another way（hh funny）
+
+--
+
+
+.pull-left[
+  * Say something at the left side
+  
+  <span style="font-size: 200%;">"I'm left!"</span> 
+  
+  <span style="font-size: 100%;">use CSS to control the size
+]
+
+.pull-right[
+   * Say something at the right side
+   
+   <span style="font-size: 30%;">"I'm right"</span> 
+   
+   Can you see?
+]
+
+---
+
+# Import pictures and table ~
+.pull-left[
+```{r echo=FALSE, out.width='50%', fig.align='left'}
+knitr::include_graphics('coding.jpeg')
+```
+]
+
+.pull-right[
+The picture shows the hard work of the people who write the code
+]
+
+--
+
+**View the head of iris data** (in bold)
+```{r echo=FALSE}
+knitr::kable(head(iris), format = 'html')
+```
+---
+# Methods of citing
+
+1. Zotero configuration.bib file
+
+ * Install the Better BibTeX plug-in.
+ * Export '.bib 'files and enable automatic updates.
+
+2. RefManageR Settings
+ * Install and configure reference styles.
+ * Load the.bib file using ReadBib().
+
+3. Insert quote
+ * Citation: 'Citet(myBib, "ExampleID")
+ * Parenthetical reference: 'Citep(myBib, "ExampleID")'
+
+4. Generate references
+ * Use 'PrintBibliography(myBib)' to automatically generate lists.
+
+
+
+
