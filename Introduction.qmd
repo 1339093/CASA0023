@@ -1,0 +1,49 @@
+---
+title: "Week 1 Introduction"
+---
+
+## Introduction to remote sensing
+
+Simply put, remote sensing is the observation from a distance through satellites, aircraft and other equipment, which can be inside the Earth's atmosphere or outside the atmosphere.
+
+The Slides briefly introduce Sensor, electromagnetic wave, interaction with earth, scattering and 4 resolutions of remotely sensed data
+
+#### Questions answered
+**What do you think is a big issue which can prevent capture of land / the target? **
+The UK is cloudy and rainy throughout the year, and clouds block reflected or radiated signals from the surface, making surface targets impossible to capture.
+
+## Reading outcomes
+1. **Tempfli et al. (2009): Principles of Remote Sensing: An Introductory Textbook**
+
+Electromagnetic Energy and Remote Sensing, Chapter 2
+
+This chapter discusses the role of electromagnetic wave in remote sensing in detail, and explains the principle of electromagnetic energy generation, propagation and its interaction with matter. The characteristics of various parts of the electromagnetic spectrum, such as visible light, infrared and microwave, and their applicability to remote sensing are discussed. In addition, it deals with the processes by which energy interacts with matter (such as reflection, absorption, and scattering), and how these properties can be used to obtain information on the surface.
+
+By understanding the propagation and interaction of electromagnetic energy, the physical basis of remote sensing images can be better understood, and the surface features can be more accurately identified in data interpretation and analysis.
+
+Overview of Popular Spaceborne Sensors, Section 4.6
+
+This section describes the space sensors commonly used today and their functions, including optical sensors (such as the Landsat series, Sentinel-2) and radar sensors (such as Sentinel-1). Emphasis was placed on the spatial, spectral and temporal resolution of these sensors, as well as their applicability to different applications such as land cover classification, disaster monitoring and water resources management.
+
+By understanding the characteristics and application fields of the main remote sensing sensors, the data can be selected and processed more pertinently, and the efficiency and accuracy of remote sensing research can be improved.
+
+2. **Jensen (2015): Introductory Digital Image Processing: A Remote Sensing Perspective**
+**Remote Sensing and Digital Image Processing, Chapter 1 (Pages 1-18 and 23-27)**
+
+This chapter provides the basic knowledge of digital image processing, including the acquisition process and processing steps of remote sensing image. The first part introduces the historical development of remote sensing technology, core concepts and image acquisition platforms (aerial and satellite). The second half describes in detail the processing processes of remote sensing data, such as pre-processing (atmospheric correction, geometric correction), image enhancement (contrast stretching), and image classification (supervised classification and unsupervised classification).
+
+Through this chapter, we understand the complete process from image data acquisition to analysis, especially the image processing method, which has important practical significance for remote sensing data analysis.
+
+3. **Brady (2021): Remote Sensing for Dummies**
+
+This book introduces the core concepts and application areas of remote sensing in an accessible way that is suitable for beginners. Special emphasis is placed on the practical applications of remote sensing technology in everyday life, such as agricultural monitoring, climate change assessment and urban planning. It also introduces simple technical operations and common software tools to help readers get started quickly.
+
+This book can help us quickly understand the basic principles and practical application cases of remote sensing, and can transform theoretical knowledge into practical skills.
+
+4. **Butcher (2016): Tour of the Electromagnetic Spectrum**
+
+The book comprehensively explains the composition, characteristics and applications of the electromagnetic spectrum from the perspective of scientific popularization, and focuses on the specific application scenarios of infrared, visible light and microwave in remote sensing. A wealth of diagrams and examples show how parts of the electromagnetic spectrum can help us observe features of the Earth's surface, such as monitoring the water content of vegetation with microwaves or analyzing heat distribution with infrared light.
+
+The book enhances the intuitive understanding of electromagnetic spectrum, further understands the characteristics of electromagnetic wave and its significance in remote sensing application, and lays a solid theoretical foundation for in-depth study of remote sensing technology.
+
+

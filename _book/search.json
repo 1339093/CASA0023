@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CASA0023 Remotely Sensing Cities and Environments",
+    "section": "",
+    "text": "Updated: 2025-01-22\n\nThis is a study note about CASA0023 Remotely Sensing Cities and Environments\nIn this note, I will record my weekly study notes and contents weekly.\nI believe this book can clearly show my learning results. It may not be perfect, but it also represents my efforts.\nMy goal is to present my own notes while being as interesting as possible and, of course, easy to understand. This is not only for better review, but also for people who have no contact with the field at all to understand and become interested.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "Xaringan and Quarto.html",
+    "href": "Xaringan and Quarto.html",
+    "title": "3  Week 2 Xaringan and Quarto",
+    "section": "",
+    "text": "3.1 Xaringan\nXaringan is a new way of doing Slides, much simpler and more straightforward, implemented in R Markdown. Xaringan overrides all the functionality of regular Slides and provides some additional functionality. For example: directly implant code, forms, etc\nI’ll show you my use of Xaringan in the next section(3.2)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 Xaringan and Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "Xaringan and Quarto.html#use-of-xaringan",
+    "href": "Xaringan and Quarto.html#use-of-xaringan",
+    "title": "3  Week 2 Xaringan and Quarto",
+    "section": "3.2 Use of Xaringan",
+    "text": "3.2 Use of Xaringan\n\n\nIn Slide, I recorded what I learned about Xaringan this week, as well as some of my own development. However, the direct display of Slide does not seem to show the results of images and code blocks directly.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 Xaringan and Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "Xaringan and Quarto.html#quarto",
+    "href": "Xaringan and Quarto.html#quarto",
+    "title": "3  Week 2 Xaringan and Quarto",
+    "section": "3.3 Quarto",
+    "text": "3.3 Quarto\nQuarto itself supports building slideshows similar to Xaringan. Below here I will show the Slide with the image and code that is not clearly shown above.\n\nImport pictures and table ~\n\n\n\n\nThis is the description of the image, aligned to the right of the picture.\n\n\nView the head of iris data (in bold)\n\n\n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n4.9\n3.0\n1.4\n0.2\nsetosa\n\n\n4.7\n3.2\n1.3\n0.2\nsetosa\n\n\n4.6\n3.1\n1.5\n0.2\nsetosa\n\n\n5.0\n3.6\n1.4\n0.2\nsetosa\n\n\n5.4\n3.9\n1.7\n0.4\nsetosa",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 Xaringan and Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "Introduction.html",
+    "href": "Introduction.html",
+    "title": "2  Week 1 Introduction",
+    "section": "",
+    "text": "2.1 Introduction to remote sensing\nSimply put, remote sensing is the observation from a distance through satellites, aircraft and other equipment, which can be inside the Earth’s atmosphere or outside the atmosphere.\nThe Slides briefly introduce Sensor, electromagnetic wave, interaction with earth, scattering and 4 resolutions of remotely sensed data",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "Introduction.html#introduction-to-remote-sensing",
+    "href": "Introduction.html#introduction-to-remote-sensing",
+    "title": "2  Week 1 Introduction",
+    "section": "",
+    "text": "2.1.0.1 Questions answered\nWhat do you think is a big issue which can prevent capture of land / the target?  The UK is cloudy and rainy throughout the year, and clouds block reflected or radiated signals from the surface, making surface targets impossible to capture.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "Introduction.html#reading-outcomes",
+    "href": "Introduction.html#reading-outcomes",
+    "title": "2  Week 1 Introduction",
+    "section": "2.2 Reading outcomes",
+    "text": "2.2 Reading outcomes\n\nTempfli et al. (2009): Principles of Remote Sensing: An Introductory Textbook\n\nElectromagnetic Energy and Remote Sensing, Chapter 2\nThis chapter discusses the role of electromagnetic wave in remote sensing in detail, and explains the principle of electromagnetic energy generation, propagation and its interaction with matter. The characteristics of various parts of the electromagnetic spectrum, such as visible light, infrared and microwave, and their applicability to remote sensing are discussed. In addition, it deals with the processes by which energy interacts with matter (such as reflection, absorption, and scattering), and how these properties can be used to obtain information on the surface.\nBy understanding the propagation and interaction of electromagnetic energy, the physical basis of remote sensing images can be better understood, and the surface features can be more accurately identified in data interpretation and analysis.\nOverview of Popular Spaceborne Sensors, Section 4.6\nThis section describes the space sensors commonly used today and their functions, including optical sensors (such as the Landsat series, Sentinel-2) and radar sensors (such as Sentinel-1). Emphasis was placed on the spatial, spectral and temporal resolution of these sensors, as well as their applicability to different applications such as land cover classification, disaster monitoring and water resources management.\nBy understanding the characteristics and application fields of the main remote sensing sensors, the data can be selected and processed more pertinently, and the efficiency and accuracy of remote sensing research can be improved.\n\nJensen (2015): Introductory Digital Image Processing: A Remote Sensing Perspective Remote Sensing and Digital Image Processing, Chapter 1 (Pages 1-18 and 23-27)\n\nThis chapter provides the basic knowledge of digital image processing, including the acquisition process and processing steps of remote sensing image. The first part introduces the historical development of remote sensing technology, core concepts and image acquisition platforms (aerial and satellite). The second half describes in detail the processing processes of remote sensing data, such as pre-processing (atmospheric correction, geometric correction), image enhancement (contrast stretching), and image classification (supervised classification and unsupervised classification).\nThrough this chapter, we understand the complete process from image data acquisition to analysis, especially the image processing method, which has important practical significance for remote sensing data analysis.\n\nBrady (2021): Remote Sensing for Dummies\n\nThis book introduces the core concepts and application areas of remote sensing in an accessible way that is suitable for beginners. Special emphasis is placed on the practical applications of remote sensing technology in everyday life, such as agricultural monitoring, climate change assessment and urban planning. It also introduces simple technical operations and common software tools to help readers get started quickly.\nThis book can help us quickly understand the basic principles and practical application cases of remote sensing, and can transform theoretical knowledge into practical skills.\n\nButcher (2016): Tour of the Electromagnetic Spectrum\n\nThe book comprehensively explains the composition, characteristics and applications of the electromagnetic spectrum from the perspective of scientific popularization, and focuses on the specific application scenarios of infrared, visible light and microwave in remote sensing. A wealth of diagrams and examples show how parts of the electromagnetic spectrum can help us observe features of the Earth’s surface, such as monitoring the water content of vegetation with microwaves or analyzing heat distribution with infrared light.\nThe book enhances the intuitive understanding of electromagnetic spectrum, further understands the characteristics of electromagnetic wave and its significance in remote sensing application, and lays a solid theoretical foundation for in-depth study of remote sensing technology.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Introduction</span>"
+    ]
+  }
+]

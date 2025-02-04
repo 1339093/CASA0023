@@ -1,0 +1,19 @@
+project:
+  type: book
+  
+book:
+  title: "CASA0023 Remotely Sensing Cities and Environments"
+  author: "Ruonan Zhu"
+  date: "2025-01-21"
+  chapters:
+    - index.qmd
+    - Introduction.qmd
+    - "Xaringan and Quarto.qmd"
+    
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+  pdf:
+    documentclass: scrreprt
+editor: visual
