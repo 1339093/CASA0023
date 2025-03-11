@@ -9,6 +9,9 @@ book:
     - index.qmd
     - Introduction.qmd
     - "Xaringan and Quarto.qmd"
+    - Corrections.qmd
+    - Policy.qmd
+    - "Google Earth Engine I.qmd"
     
 format:
   html:

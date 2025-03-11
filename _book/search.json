@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CASA0023 Remotely Sensing Cities and Environments",
     "section": "",
-    "text": "Updated: 2025-01-22\n\nThis is a study note about CASA0023 Remotely Sensing Cities and Environments\nIn this note, I will record my weekly study notes and contents weekly.\nI believe this book can clearly show my learning results. It may not be perfect, but it also represents my efforts.\nMy goal is to present my own notes while being as interesting as possible and, of course, easy to understand. This is not only for better review, but also for people who have no contact with the field at all to understand and become interested.",
+    "text": "Updated: 2025-01-22\n\nThis is a study note about CASA0023 Remotely Sensing Cities and Environments\nIn this note, I will record my weekly study notes and contents weekly.\nI believe this book can clearly show my learning results. It may not be perfect, but it also represents my efforts.\nMy goal is to present my own notes while being as interesting as possible and, of course, easy to understand. This is not only for better review, but also for people who have no contact with the field at all to understand and become interested.\npre- processing application reflection",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
     ]
@@ -12,11 +12,11 @@
   {
     "objectID": "Xaringan and Quarto.html",
     "href": "Xaringan and Quarto.html",
-    "title": "3  Week 2 Xaringan and Quarto",
+    "title": "3  Week 2 Protfolio",
     "section": "",
-    "text": "3.1 Xaringan\nXaringan is a new way of doing Slides, much simpler and more straightforward, implemented in R Markdown. Xaringan overrides all the functionality of regular Slides and provides some additional functionality. For example: directly implant code, forms, etc\nI’ll show you my use of Xaringan in the next section(3.2)",
+    "text": "3.1 Summary\nXaringan is a new way of doing Slides, much simpler and more straightforward, implemented in R Markdown. Xaringan overrides all the functionality of regular Slides and provides some additional functionality. For example: directly implant code, forms, etc\nI’ll show you my use of Xaringan in the next section(3.2)\nQuarto itself supports building slideshows similar to Xaringan. Below here I will show the Slide with the image and code that is not clearly shown above.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 Xaringan and Quarto</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 Protfolio</span>"
     ]
   },
   {
@@ -42,11 +42,11 @@
   {
     "objectID": "Introduction.html",
     "href": "Introduction.html",
-    "title": "2  Week 1 Introduction",
+    "title": "2  Week 1 Start",
     "section": "",
-    "text": "2.1 Introduction to remote sensing\nSimply put, remote sensing is the observation from a distance through satellites, aircraft and other equipment, which can be inside the Earth’s atmosphere or outside the atmosphere.\nThe Slides briefly introduce Sensor, electromagnetic wave, interaction with earth, scattering and 4 resolutions of remotely sensed data",
+    "text": "2.1 Summary\nThis week has taken me from novice to beginner in remote sensing.\nI have learnt：\n💡：\nThe diversity and complexity of remotely sensed data, while offering potential, can also present challenges.\n(Data fusion may be possible through spatial interpolation, machine learning, etc.)\n(Initial correction using physical models Second Simulation of the Satellite Signal in the Solar Spectrum, MODTRAN, Ross-Thick-LiSparse model, etc., and then further correction of residual errors or prediction of surface through models such as Random Forest, CNN, etc.) parameters)",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Introduction</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Start</span>"
     ]
   },
   {
@@ -67,6 +67,176 @@
     "text": "2.2 Reading outcomes\n\nTempfli et al. (2009): Principles of Remote Sensing: An Introductory Textbook\n\nElectromagnetic Energy and Remote Sensing, Chapter 2\nThis chapter discusses the role of electromagnetic wave in remote sensing in detail, and explains the principle of electromagnetic energy generation, propagation and its interaction with matter. The characteristics of various parts of the electromagnetic spectrum, such as visible light, infrared and microwave, and their applicability to remote sensing are discussed. In addition, it deals with the processes by which energy interacts with matter (such as reflection, absorption, and scattering), and how these properties can be used to obtain information on the surface.\nBy understanding the propagation and interaction of electromagnetic energy, the physical basis of remote sensing images can be better understood, and the surface features can be more accurately identified in data interpretation and analysis.\nOverview of Popular Spaceborne Sensors, Section 4.6\nThis section describes the space sensors commonly used today and their functions, including optical sensors (such as the Landsat series, Sentinel-2) and radar sensors (such as Sentinel-1). Emphasis was placed on the spatial, spectral and temporal resolution of these sensors, as well as their applicability to different applications such as land cover classification, disaster monitoring and water resources management.\nBy understanding the characteristics and application fields of the main remote sensing sensors, the data can be selected and processed more pertinently, and the efficiency and accuracy of remote sensing research can be improved.\n\nJensen (2015): Introductory Digital Image Processing: A Remote Sensing Perspective Remote Sensing and Digital Image Processing, Chapter 1 (Pages 1-18 and 23-27)\n\nThis chapter provides the basic knowledge of digital image processing, including the acquisition process and processing steps of remote sensing image. The first part introduces the historical development of remote sensing technology, core concepts and image acquisition platforms (aerial and satellite). The second half describes in detail the processing processes of remote sensing data, such as pre-processing (atmospheric correction, geometric correction), image enhancement (contrast stretching), and image classification (supervised classification and unsupervised classification).\nThrough this chapter, we understand the complete process from image data acquisition to analysis, especially the image processing method, which has important practical significance for remote sensing data analysis.\n\nBrady (2021): Remote Sensing for Dummies\n\nThis book introduces the core concepts and application areas of remote sensing in an accessible way that is suitable for beginners. Special emphasis is placed on the practical applications of remote sensing technology in everyday life, such as agricultural monitoring, climate change assessment and urban planning. It also introduces simple technical operations and common software tools to help readers get started quickly.\nThis book can help us quickly understand the basic principles and practical application cases of remote sensing, and can transform theoretical knowledge into practical skills.\n\nButcher (2016): Tour of the Electromagnetic Spectrum\n\nThe book comprehensively explains the composition, characteristics and applications of the electromagnetic spectrum from the perspective of scientific popularization, and focuses on the specific application scenarios of infrared, visible light and microwave in remote sensing. A wealth of diagrams and examples show how parts of the electromagnetic spectrum can help us observe features of the Earth’s surface, such as monitoring the water content of vegetation with microwaves or analyzing heat distribution with infrared light.\nThe book enhances the intuitive understanding of electromagnetic spectrum, further understands the characteristics of electromagnetic wave and its significance in remote sensing application, and lays a solid theoretical foundation for in-depth study of remote sensing technology.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "Corrections.html",
+    "href": "Corrections.html",
+    "title": "4  Week 3 Corrections",
+    "section": "",
+    "text": "4.1 Summary\nThe main content of this week is Correction and Enhancement of Remote Sensing Data, focusing on the techniques of Atmospheric Correction, Geometric Correction and Data Fusion. Through practice, I mastered how to perform atmospheric correction on remote sensing images using the Dark Object Subtraction (DOS) method, and learnt how to stitch (Mosaicking) multiple remote sensing images into a seamless whole. There was also exposure to Image Enhancement techniques such as Filtering, Texture Analysis, and Principal Component Analysis (PCA), which can help us extract more useful information from remotely sensed data.\n💡:\nDOS is suitable for simple scenarios, while COST is more suitable for complex atmospheric conditions.\n(Control the degree of processing during image enhancement, e.g. select principal components with more than the first 95% of variance information instead of all principal components. After enhancement, use the original data for comparison to ensure that the data features have not been overly modified.)\nGonzález, R. C., & Woods, R. E. (2018). Digital image processing. also covered in detail in the book Pearson Education.(I haven’t finished it yet…😁)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "Corrections.html#reading",
+    "href": "Corrections.html#reading",
+    "title": "4  Corrections",
+    "section": "",
+    "text": "4.1.1 Joyce, K., 2013 - Radiative Transfer and Atmospheric Correction Video\nThis video introduces the basic concepts of Radiative Transfer and Atmospheric Correction.\nRadiative transmission: Describes the effects of electromagnetic waves (such as scattering, absorption, reflection) as they travel through the atmosphere.\nAtmospheric correction: removal of remote sensing image distortion caused by atmospheric influences (such as aerosols, clouds), so that it is closer to the true reflectivity of the ground object.\nThe main methods include: 6S (Second Simulation of a Satellite Signal in the Solar Spectrum), image normalization, etc.\n💡 Sentiment:\nAtmospheric correction is a key step in remote sensing image processing, which has an important impact on land cover classification and vegetation index calculation.\nAlthough the physical model method is accurate, it needs a large number of input parameters and the calculation is complicated. The statistical method is relatively simple, but its applicability is limited.\nIn the future, it is possible to further optimize the atmospheric correction process through machine learning, making it more automated.\n\n\n4.1.2 Jensen, J.R., 2015 - Introductory Digital Image Processing\n\n4.1.2.1 Chapter 6: Atmospheric Correction (p.208)\nThe effects of atmosphere on remote sensing images are described in detail:\nRayleigh Scattering: Short wavelengths (such as blue light) are heavily affected, resulting in bluer images.\nMie Scattering: Air pollutants (such as aerosols) have a large impact.\nNon-selective Scattering: Large water droplets or clouds scatter at all wavelengths.\nAtmospheric correction method: Field-based: Calibration using ground measurements, such as spectral reflectance.\nImage normalization (image-based) : the use of the image’s own characteristics for relative correction, such as Dark Object Subtraction (DOS) method.\n💡 Sentiment:\nThe book details the types of atmospheric scattering and their effects, helping to understand why remote sensing images are often skewed.\nThe DOS method is a good choice when computing power is limited, but physical models (such as 6S) are more accurate if conditions permit.\nAtmospheric correction is particularly important for time series remote sensing data (such as climate studies), otherwise the data cannot be compared.\n\n\n4.1.2.2 Chapter 7: Geometric Correction (p.242)\nThe main sources of image geometric distortion are introduced:\nSensor-related distortion, Earth curvature, Topographic effect,\nGeometric correction methods:\nSystematic Correction: Initial geometric correction using satellite metadata.\nPrecise Correction: Image Resampling is performed based on Ground Control Points (GCPs).\nTopographic Correction: The use of DEM data to correct topographic effects (such as slope effects).\n💡 Sentiment:\nGeometric correction is the basis of remote sensing data processing, if not corrected, there will be errors in image registration, which will affect the accuracy of spatio-temporal analysis.\nThe GCPs method is suitable for high precision requirements, but if the data volume is large, automated terrain correction (such as SRTM DEM) is a more feasible approach.\nGeometric registration is very important in remote sensing image time series analysis, especially in disaster monitoring and ecosystem change analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "Introduction.html#summary",
+    "href": "Introduction.html#summary",
+    "title": "2  Week 1 Start",
+    "section": "",
+    "text": "The basic concepts of remote sensing, the types of sensors (active and passive), and the process by which electromagnetic waves interact with the earth’s surface and the atmosphere.\nRemote sensing is not only satellite images, but also includes data acquired by drones, aircraft and even handheld devices.\nthe four resolutions of remotely sensed data (spatial, spectral, temporal and radiometric) determine the applicability of the data.\n\n\n\n\nHow can remote sensing data of different resolutions be integrated?\n\n\n\nThe effects of electromagnetic wave interactions with the atmosphere and surface in practical applications may require corrections to improve the accuracy of the data.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Start</span>"
+    ]
+  },
+  {
+    "objectID": "Introduction.html#application",
+    "href": "Introduction.html#application",
+    "title": "2  Week 1 Start",
+    "section": "2.2 Application",
+    "text": "2.2 Application\nAreas of application:\nEnvironmental monitoring, disaster management and urban planning\nActive sensors (SAR…) Can penetrate clouds, suitable for monitoring in cloudy areas.\nPassive sensors (optical sensors…) More suitable for high resolution imaging in clear sky conditions.\nSo by combining these two sensors, all-weather and all-terrain surface monitoring can be achieved.\nIn the literature：\nStudies use SAR data for flood monitoring and forest cover change analysis. This is because the penetration capability of SAR gives it a unique advantage in monitoring deforestation in tropical rainforest areas. However, the disadvantage is that the interpretation of SAR data is more complex and needs to be validated in conjunction with ground observations and other remote sensing data.\n💡:\nIn addition to traditional environmental monitoring, remote sensing can be used for social issues.\n(Assessing the level of economic development or population distribution by analysing night-time lighting data.)\nIt may be possible to use remote sensing data to assess meteorological disasters (floods…)\n(Assessing the recovery of affected areas by analysing changes in spectral features before and after floods.)\nAlso combined with other data sources (e.g. social media or sensor networks) to provide a more comprehensive environmental monitoring programme.\n(Combining disaster reports in social media and remote sensing data to assess disaster impacts in real time.)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Start</span>"
+    ]
+  },
+  {
+    "objectID": "Introduction.html#reflection",
+    "href": "Introduction.html#reflection",
+    "title": "2  Week 1 Start",
+    "section": "2.3 Reflection",
+    "text": "2.3 Reflection\nThe biggest feeling I got from this week’s study is that remote sensing technology is really complex and diverse at the same time, and I feel like I have opened the door to a new world. Although I was a bit confused at first, the more I learnt, the more interesting it became. Especially the SAR data, its penetrating ability simply caught my eyes! In a place like London, where it is always cloudy, SAR is a lifesaver, as it can penetrate the clouds and see what is happening on the ground surface, which will definitely be useful in disaster monitoring and climate change research. Although I am still a bronze player, I think I will be able to reach the gold level one day as long as I keep upgrading my skills!\nWhen it comes to my future research direction, I studied computer science in my undergraduate degree, so I am particularly interested in seeing how machine learning can be applied to remote sensing data analysis. For example, deep learning models can be used to automatically identify the type of ground cover or predict the trend of environmental change. Nowadays, the volume of remote sensing data is so large that manual analysis alone is definitely not enough, and if AI can be used to help, the efficiency will definitely be greatly improved. Moreover, machine learning can also discover some patterns from the data that we can’t see with the naked eye, which feels especially cool!\nAlso, like I mentioned above, can remote sensing technology be used in combination with other fields in the future? For example, combining remote sensing data with social media data to monitor disasters in real time. Or, integrating drone data with satellite data for both a detailed and wide view. These ideas may be premature now, but I think they are definitely possible in the future!\nAll in all, this week’s study has given me a deeper understanding of remote sensing technology and given me more ideas for future research directions. Although there is still a long way to go, I am ready to fight and upgrade!",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Start</span>"
+    ]
+  },
+  {
+    "objectID": "Xaringan and Quarto.html#use-of-xaringan-and-quarto",
+    "href": "Xaringan and Quarto.html#use-of-xaringan-and-quarto",
+    "title": "3  Week 2 Xaringan and Quarto",
+    "section": "3.2 Use of Xaringan and Quarto",
+    "text": "3.2 Use of Xaringan and Quarto\n\n\nIn Slide, I recorded what I learned about Xaringan this week, as well as some of my own development. However, the direct display of Slide does not seem to show the results of images and code blocks directly.\nQuarto itself supports building slideshows similar to Xaringan. Below here I will show the Slide with the image and code that is not clearly shown above.\n\nImport pictures and table ~\n\n\n\n\nThis is the description of the image, aligned to the right of the picture.\n\n\nView the head of iris data (in bold)\n\n\n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n4.9\n3.0\n1.4\n0.2\nsetosa\n\n\n4.7\n3.2\n1.3\n0.2\nsetosa\n\n\n4.6\n3.1\n1.5\n0.2\nsetosa\n\n\n5.0\n3.6\n1.4\n0.2\nsetosa\n\n\n5.4\n3.9\n1.7\n0.4\nsetosa",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 Xaringan and Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "Xaringan and Quarto.html#reflection",
+    "href": "Xaringan and Quarto.html#reflection",
+    "title": "3  Week 2 Protfolio",
+    "section": "3.2 Reflection",
+    "text": "3.2 Reflection\nThe things we learnt this week are very effective in academic research and technical presentations; Xaringan can be used to make clear and concise academic presentations and Quarto is good for writing technical documentation or online books. With GitHub Pages, these resources can be easily shared with others.\nIn the literature, many studies have used Xaringan and Quarto to present data analysis results or technical methods. For example, some studies have used Quarto to write data analysis reports and then publish them as online books that readers can browse interactively.\nHowever, there are some limitations to these tools, such as lack of support for complex formats and the need for some programming skills to use them well.\n💡:\nQuarto’s support for multiple languages feels like it would be useful in interdisciplinary research, but in practice, how do you make sure that blocks of code in different languages fit together seamlessly and display correctly? For example, combining data analysis in R with machine learning models in Python.\n（Possibly via the Jupyter Kernel, or some package that supports interconnections (reticulate)?）",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 Protfolio</span>"
+    ]
+  },
+  {
+    "objectID": "Xaringan and Quarto.html#application",
+    "href": "Xaringan and Quarto.html#application",
+    "title": "3  Week 2 Protfolio",
+    "section": "3.3 Application",
+    "text": "3.3 Application\n\n3.3.1 Use of Xaringan\n\n\nIn Slide, I recorded what I learned about Xaringan this week, as well as some of my own development. However, the direct display of Slide does not seem to show the results of images and code blocks directly.\n\n\n3.3.2 Use of Quarto\n\nImport pictures and table ~\n\n\n\n\nThis is the description of the image, aligned to the right of the picture.\n\n\nView the head of iris data (in bold)\n\n\n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n4.9\n3.0\n1.4\n0.2\nsetosa\n\n\n4.7\n3.2\n1.3\n0.2\nsetosa\n\n\n4.6\n3.1\n1.5\n0.2\nsetosa\n\n\n5.0\n3.6\n1.4\n0.2\nsetosa\n\n\n5.4\n3.9\n1.7\n0.4\nsetosa",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 Protfolio</span>"
+    ]
+  },
+  {
+    "objectID": "Corrections.html#summary",
+    "href": "Corrections.html#summary",
+    "title": "4  Week 3 Corrections",
+    "section": "",
+    "text": "atmospheric correction is a very important step in remote sensing data processing, but different correction methods (e.g., DOS and COST) are suitable for different scenarios.\n\n\n\nimage enhancement techniques (e.g. PCA and texture analysis) can help us extract more information from the data, but do these methods lead to over-processing or distortion of the information? How can we enhance images while maintaining the fidelity of the data?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "Corrections.html#application",
+    "href": "Corrections.html#application",
+    "title": "4  Week 3 Corrections",
+    "section": "4.2 Application",
+    "text": "4.2 Application\nThe content learnt this week has potential for a wide range of applications in environmental monitoring, land use classification and disaster management. For example, atmospheric correction can be used to improve the accuracy of remotely sensed data, especially in cloudy or heavily atmospherically polluted areas. With image enhancement techniques, we can better identify surface features such as vegetation cover, water distribution and urban sprawl.\nIn the literature\nMany studies have used atmospheric correction and image enhancement techniques to improve the quality of remotely sensed data. For example, some studies have used DOS methods to correct Landsat data to improve the accuracy of vegetation indices such as NDVI. However, there are some limitations to these methods, such as the fact that DOS methods may not be able to completely remove atmospheric effects when atmospheric conditions are complex.\n💡:\nCan remote sensing data correction and enhancement techniques be used in areas other than traditional environmental monitoring? For example, in urban planning, corrected remote sensing data are used to assess the urban heat island effect.\nThere have been some applications in the literature: the surface radiation temperature of Shenzhen City was inverted using the Split Window Algorithm (SWA) and the Atmospheric Correction Method (ARC).\nReference：Zhang Xiaomin,Liu Zhiwei,Fang Han,et al. Spatial and temporal distribution of urban heat island effect and land use impacts in Shenzhen based on Landsat 8 TIRS surface temperature data inversion[J]. Climate and Environment Research,2023,28(3):242-250. DOI:10.3878/j.issn.1006-9585.2022.21160.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "Corrections.html#reflection",
+    "href": "Corrections.html#reflection",
+    "title": "4  Week 3 Corrections",
+    "section": "4.3 Reflection",
+    "text": "4.3 Reflection\nAfter this week’s study, I feel that the correction and enhancement techniques of remote sensing data are really quite complicated, but also very interesting. Especially the atmospheric correction, although I found it a bit difficult to understand at first, but through the DOS method, I slowly understood its basic principles and was able to get my hands on it.\nCan these techniques be combined with AI in the future? For example, using AI to automatically identify which areas require more complex atmospheric corrections, or using machine learning models to predict which image enhancement methods are best suited to a particular surface feature. This would not only improve efficiency, but also make the processing of remote sensing data smarter.\nIt also occurs to me that remote sensing data correction and enhancement techniques could be combined with VR or AR?\nFor example, the corrected remote sensing data can be imported into a VR environment, so that researchers or decision makers can ‘walk into’ the remote sensing images and visualise the changes on the ground surface. Or using AR technology to overlay remote sensing data onto the real world to help urban planners better understand the impacts of urban sprawl. This combination may make the application of remote sensing technology more intuitive and interesting.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "Policy.html",
+    "href": "Policy.html",
+    "title": "5  Week 4 Policy",
+    "section": "",
+    "text": "5.1 Summary\nThis week’s assignment was based around a city case study, combining remote sensing data and policy objectives to analyse the relationship between them. I chose Singapore because it is a highly urbanised island nation that faces a number of climate and environmental challenges, such as rising sea levels, urban heat island effect, and land resource constraints. To address these issues, the Singapore government has developed the Singapore Master Plan (SMP), one of the key objectives of which is to promote sustainable urban development.\nIn this process, remote sensing data can play a big role, such as monitoring urban sprawl, evaluating green space coverage, and analysing changes in the coastline. Although I seldom pay attention to these ‘macro’ issues in my daily life, this assignment made me realise that satellite data are actually closely related to our urban life and can even influence the government’s decisions.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 Policy</span>"
+    ]
+  },
+  {
+    "objectID": "Policy.html#application",
+    "href": "Policy.html#application",
+    "title": "5  Week 4 Policy",
+    "section": "5.2 Application",
+    "text": "5.2 Application\nHow exactly can remote sensing data help Singapore’s sustainable development goals?\nGoogle Earth Engine provides free Landsat and Sentinel data that researchers can use to analyse urban sprawl.\nAfter looking up the information, I think it can be used in the following ways:\n1. Monitoring urban sprawl\nSingapore’s land is very limited, and urbanisation and development can affect natural ecosystems such as forests, wetlands and even coastlines. I found that these changes can be analysed using Landsat multi-temporal imagery to see just how much urbanisation is affecting the environment. For example, the government can use this data to decide which areas need ecological protection and which can be used for development.\n2. Assessing urban greenery and the heat island effect\nWalking on a concrete road in summer, you can really feel the temperature much higher than in a park, which is the Urban Heat Island Effect (UHI). Through the NDVI (Normalised Vegetation Index), we can see the green coverage of Singapore and identify areas with less vegetation and higher temperatures. In this way, the government can target more green spaces, such as planting more trees and promoting rooftop greening, to lower the temperature.\n3. Monitoring Sea Level Rise\nAs an island nation, Singapore’s coastline will be affected by climate change. Changes in the coastline can be analysed using Sentinel-1 SAR data to see which areas may be threatened by sea level rise. This will enable the government to plan ahead, such as reinforcing seawalls and protecting mangroves, which are natural protective barriers.\nData Reference:\nLandsat: Monitoring urban sprawl and land use change.\nSentinel-2: Analysing vegetation cover and assessing urban green spaces.\nSentinel-1SAR: Monitoring Sea Level Rise and Assessing Coastal Risks",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 Policy</span>"
+    ]
+  },
+  {
+    "objectID": "Policy.html#reflection",
+    "href": "Policy.html#reflection",
+    "title": "5  Week 4 Policy",
+    "section": "5.3 Reflection",
+    "text": "5.3 Reflection\n1. Remote sensing data is useful but has its limitations.\nI thought that remote sensing data is ‘real time’, but in fact it is affected by weather, data update frequency and other factors, sometimes it may not reflect the latest situation immediately. For example, optical remote sensing (Landsat, Sentinel-2) is difficult to use in cloudy weather, which made me realise why Synthetic Aperture Radar (SAR) is so important because it is not affected by weather. There is also the fact that data processing is not simple, and after the government acquires the data, it needs professionals to analyse and interpret it before it can really be used for decision making.\n2. The Power of Remote Sensing Data\nThis assignment really made me realise that data can shape a city. Government decisions are not made out of thin air, but are based on a variety of data, such as remote sensing imagery, ground measurements, and even social data. It’s like Singapore’s master plan is not decided arbitrarily, but through data analysis and trend prediction to find the most reasonable development direction. For example, they use remote sensing to monitor the green coverage rate and find areas where parks need to be added; they use coastline data to predict sea level rise and decide where seawalls need to be built. This makes me think that urban planning is actually a kind of ‘data-driven art’.\n3. Human-centred\nThis assignment made me think that although data and technology are important, they ultimately serve people. The government can use remote sensing data to optimise urban planning, but if people are not willing to change their habits, it may be difficult to implement policies.\nBut if ordinary people are allowed to have access to this data, will it lead to better decision-making?\nIf everyone can view the greening rate and heat island effect index of their neighbourhood through Google Earth Engine as such, this can raise public awareness of environmental protection. If these data are more transparent, citizens may be more willing to participate in urban planning rather than just passively accepting policies.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 Policy</span>"
+    ]
+  },
+  {
+    "objectID": "Google Earth Engine I.html",
+    "href": "Google Earth Engine I.html",
+    "title": "6  Week 6 Google Earth Engine I",
+    "section": "",
+    "text": "6.1 Summary\nThe main task this week is to learn how to analyse remote sensing data using Google Earth Engine (GEE).GEE is a powerful cloud platform capable of handling large-scale remote sensing data and providing fast computational power. With GEE, we can access worldwide remote sensing datasets such as Landsat, Sentinel, etc. and perform complex spatial analyses.\nThis week focused on the basic operations of GEE, including data loading, image processing, texture analysis and principal component analysis (PCA). And the GEE results are exported and applied to practical problems.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 Google Earth Engine I</span>"
+    ]
+  },
+  {
+    "objectID": "Google Earth Engine I.html#application",
+    "href": "Google Earth Engine I.html#application",
+    "title": "6  Week 6 Google Earth Engine I",
+    "section": "6.2 Application",
+    "text": "6.2 Application\nGEE is widely used in remote sensing data analysis, especially in urban planning and environmental monitoring.\nThrough relevant literature, I found many studies using GEE to analyse the urban heat island effect and to assess the distribution of urban green space by calculating the Normalised Vegetation Index (NDVI).\nIn air pollution monitoring, GEE can be used to analyse air pollution data from Sentinel-5P to monitor the trends of pollutants such as PM2.5 and nitrogen dioxide (NO2). Expressed in policy research, GEE data can be used to analyse the relationship between air pollution and urban population density, providing a scientific basis for urban environmental managers.PCA can also be used to downscale multi-band remote sensing data and extract the main components to simplify data analysis. Through PCA analysis, the bands that contribute most to the urban heat island effect can be identified. In this way, it also contributes to the ‘prioritisation’.\nAnother interesting application for me is flood risk assessment. By combining Landsat imagery, DEMs (Digital Elevation Models) and precipitation data, it is possible to monitor in real time the extent of flood damage. Using the reduceRegion() function, it is possible to calculate the historical frequency of floods in a given area and assess the future risk, which is important for emergency management and disaster warning.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 Google Earth Engine I</span>"
+    ]
+  },
+  {
+    "objectID": "Google Earth Engine I.html#reflection",
+    "href": "Google Earth Engine I.html#reflection",
+    "title": "6  Week 6 Google Earth Engine I",
+    "section": "6.3 Reflection",
+    "text": "6.3 Reflection\nThis week’s study has made me deeply appreciate the advantages of cloud computing in remote sensing data analysis. Compared with traditional local GIS software, GEE greatly improves computational efficiency and is especially suitable for large-scale data processing.\nIn practice, one of the roadblocks I encountered was adapting to the JavaScript syntax, because in the past I mainly used Python for data analysis. I learnt that GEE’s map() function is an important concept for batch processing image data on the server side, avoiding the inefficient computation of traditional for loops. I think this is a great approach.\nIn the future, I hope to do more in-depth research in conjunction with GEE, especially the application of machine learning to remote sensing image classification. (Seems like I say that every week…) I hope my previous knowledge will come in handy)\nFor example, exploring Random Forest (Random Forest) or Support Vector Machines (SVM) for land cover classification, and combining GEE with deep learning frameworks (e.g., TensorFlow) to further improve the accuracy of image analysis. This will not only expand the application scope of GEE, but also provide more accurate and credible data support for environmental monitoring and sustainable urban development.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 6 Google Earth Engine I</span>"
     ]
   }
 ]

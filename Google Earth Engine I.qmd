@@ -1,0 +1,29 @@
+---
+title: "Week 6 Google Earth Engine I"
+---
+
+## Summary
+
+The main task this week is to learn how to analyse remote sensing data using **Google Earth Engine (GEE)**.GEE is a powerful cloud platform capable of handling large-scale remote sensing data and providing fast computational power. With GEE, we can access worldwide remote sensing datasets such as Landsat, Sentinel, etc. and perform complex spatial analyses.
+
+This week focused on the basic operations of GEE, including data loading, image processing, texture analysis and principal component analysis (PCA). And the GEE results are exported and applied to practical problems.
+
+## Application
+
+GEE is widely used in remote sensing data analysis, especially in urban planning and environmental monitoring.
+
+Through relevant literature, I found many studies using GEE to analyse the urban heat island effect and to assess the distribution of urban green space by calculating the **Normalised Vegetation Index (NDVI)**.
+
+In air pollution monitoring, GEE can be used to analyse air pollution data from Sentinel-5P to monitor the trends of pollutants such as PM2.5 and nitrogen dioxide (NO2). Expressed in policy research, GEE data can be used to analyse the relationship between air pollution and urban population density, providing a scientific basis for urban environmental managers.PCA can also be used to downscale multi-band remote sensing data and extract the main components to simplify data analysis. Through PCA analysis, the bands that contribute most to the urban heat island effect can be identified. In this way, it also contributes to the ‘prioritisation’.
+
+Another interesting application for me is flood risk assessment. By combining Landsat imagery, DEMs (Digital Elevation Models) and precipitation data, it is possible to monitor in real time the extent of flood damage. Using the reduceRegion() function, it is possible to calculate the historical frequency of floods in a given area and assess the future risk, which is important for emergency management and disaster warning.
+
+## Reflection
+
+This week's study has made me deeply appreciate the advantages of cloud computing in remote sensing data analysis. Compared with traditional local GIS software, GEE greatly improves computational efficiency and is especially suitable for large-scale data processing.
+
+In practice, one of the roadblocks I encountered was adapting to the JavaScript syntax, because in the past I mainly used Python for data analysis. I learnt that GEE's map() function is an important concept for batch processing image data on the server side, avoiding the inefficient computation of traditional for loops. I think this is a great approach.
+
+In the future, I hope to do more in-depth research in conjunction with GEE, especially the application of machine learning to remote sensing image classification. (Seems like I say that every week...) I hope my previous knowledge will come in handy)
+
+For example, exploring **Random Forest (Random Forest) or Support Vector Machines (SVM)** for land cover classification, and combining GEE with deep learning frameworks (e.g., TensorFlow) to further improve the accuracy of image analysis. This will not only expand the application scope of GEE, but also provide more accurate and credible data support for environmental monitoring and sustainable urban development.

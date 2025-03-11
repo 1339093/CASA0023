@@ -1,0 +1,49 @@
+---
+title: "Week 3 Corrections"
+format: html
+---
+
+## Summary
+
+The main content of this week is **Correction and Enhancement of Remote Sensing Data**, focusing on the techniques of **Atmospheric Correction**, **Geometric Correction** and **Data Fusion**. Through practice, I mastered how to perform atmospheric correction on remote sensing images using the **Dark Object Subtraction (DOS)** method, and learnt how to stitch (Mosaicking) multiple remote sensing images into a seamless whole. There was also exposure to **Image Enhancement** techniques such as **Filtering**, **Texture Analysis**, and **Principal Component Analysis (PCA)**, which can help us extract more useful information from remotely sensed data.
+
+
+**💡:**
+
+1. atmospheric correction is a very important step in remote sensing data processing, but different correction methods (e.g., DOS and COST) are suitable for different scenarios. 
+
+DOS is suitable for simple scenarios, while COST is more suitable for complex atmospheric conditions.
+
+2. image enhancement techniques (e.g. PCA and texture analysis) can help us extract more information from the data, but do these methods lead to over-processing or distortion of the information? How can we enhance images while maintaining the fidelity of the data?
+
+(Control the degree of processing during image enhancement, e.g. select principal components with more than the first 95% of variance information instead of all principal components. After enhancement, use the original data for comparison to ensure that the data features have not been overly modified.)
+
+González, R. C., & Woods, R. E. (2018). Digital image processing. also covered in detail in the book Pearson Education.(I haven't finished it yet...😁)
+
+## Application
+
+The content learnt this week has potential for a wide range of applications in environmental monitoring, land use classification and disaster management. For example, atmospheric correction can be used to improve the accuracy of remotely sensed data, especially in cloudy or heavily atmospherically polluted areas. With image enhancement techniques, we can better identify surface features such as vegetation cover, water distribution and urban sprawl.
+
+**In the literature**
+
+Many studies have used atmospheric correction and image enhancement techniques to improve the quality of remotely sensed data. For example, some studies have used DOS methods to correct Landsat data to improve the accuracy of vegetation indices such as NDVI. However, there are some limitations to these methods, such as the fact that DOS methods may not be able to completely remove atmospheric effects when atmospheric conditions are complex.
+
+**💡:**
+
+Can remote sensing data correction and enhancement techniques be used in areas other than traditional environmental monitoring? For example, in urban planning, corrected remote sensing data are used to assess the urban heat island effect.
+
+There have been some applications in the literature: the surface radiation temperature of Shenzhen City was inverted using the Split Window Algorithm (SWA) and the Atmospheric Correction Method (ARC).
+
+*Reference：*Zhang Xiaomin,Liu Zhiwei,Fang Han,et al. Spatial and temporal distribution of urban heat island effect and land use impacts in Shenzhen based on Landsat 8 TIRS surface temperature data inversion[J]. Climate and Environment Research,2023,28(3):242-250. DOI:10.3878/j.issn.1006-9585.2022.21160.
+
+
+## Reflection
+
+After this week's study, I feel that the correction and enhancement techniques of remote sensing data are really quite complicated, but also very interesting. Especially the atmospheric correction, although I found it a bit difficult to understand at first, but through the DOS method, I slowly understood its basic principles and was able to get my hands on it.
+
+Can these techniques be combined with **AI** in the future? For example, using AI to automatically identify which areas require more complex atmospheric corrections, or using machine learning models to predict which image enhancement methods are best suited to a particular surface feature. This would not only improve efficiency, but also make the processing of remote sensing data smarter.
+
+It also occurs to me that remote sensing data correction and enhancement techniques could be combined with **VR or AR**?
+
+For example, the corrected remote sensing data can be imported into a VR environment, so that researchers or decision makers can ‘walk into’ the remote sensing images and visualise the changes on the ground surface. Or using AR technology to overlay remote sensing data onto the real world to help urban planners better understand the impacts of urban sprawl. This combination may make the application of remote sensing technology more intuitive and interesting.
+
