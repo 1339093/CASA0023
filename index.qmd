@@ -2,22 +2,16 @@
 title: "Welcome"
 ---
 
-::: {.metadata}
+::: metadata
 **Updated:** 2025-01-22
 :::
-
 
 This is a study note about **CASA0023** Remotely Sensing Cities and Environments
 
 In this note, I will record my weekly study notes and contents weekly.
 
-I believe this <span class="text-green">book</span> can clearly show my learning results. 
-It may not be **perfect**, but it also represents my efforts.
+I believe this [book]{.text-green} can clearly show my learning results. It may not be **perfect**, but it also represents my efforts.
 
-**My goal** is to present my own notes while being as interesting as possible and, of course, easy to understand.
-This is not only for better <span class="text-red">review</span>, but also for people who have no contact with the field at all to understand and become interested.
+**My goal** is to present my own notes while being as interesting as possible and, of course, easy to understand. This is not only for better [review]{.text-red}, but also for people who have no contact with the field at all to understand and become interested.
 
-
-pre- processing
-application
-reflection
+pre- processing application reflection

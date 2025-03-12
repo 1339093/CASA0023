@@ -41,18 +41,16 @@ Sentinel-1SAR: Monitoring Sea Level Rise and Assessing Coastal Risks
 
 *1. Remote sensing data is useful but has its limitations.*
 
-I thought that remote sensing data is ‘real time’, but in fact it is affected by weather, data update frequency and other factors, sometimes it may not reflect the latest situation immediately. For example, optical remote sensing (Landsat, Sentinel-2) is difficult to use in cloudy weather, which made me realise why **Synthetic Aperture Radar (SAR)** is so important because it is not affected by weather.
-There is also the fact that data processing is not simple, and after the government acquires the data, it needs professionals to analyse and interpret it before it can really be used for decision making.
+I thought that remote sensing data is ‘real time’, but in fact it is affected by weather, data update frequency and other factors, sometimes it may not reflect the latest situation immediately. For example, optical remote sensing (Landsat, Sentinel-2) is difficult to use in cloudy weather, which made me realise why **Synthetic Aperture Radar (SAR)** is so important because it is not affected by weather. There is also the fact that data processing is not simple, and after the government acquires the data, it needs professionals to analyse and interpret it before it can really be used for decision making.
 
 *2. The Power of Remote Sensing Data*
 
-This assignment really made me realise that data can shape a city. Government decisions are not made out of thin air, but are based on a variety of data, such as remote sensing imagery, ground measurements, and even social data.
-It's like Singapore's master plan is not decided arbitrarily, but through data analysis and trend prediction to find the most reasonable development direction. For example, they use remote sensing to monitor the green coverage rate and find areas where parks need to be added; they use coastline data to predict sea level rise and decide where seawalls need to be built. This makes me think that urban planning is actually a kind of ‘data-driven art’.
+This assignment really made me realise that data can shape a city. Government decisions are not made out of thin air, but are based on a variety of data, such as remote sensing imagery, ground measurements, and even social data. It's like Singapore's master plan is not decided arbitrarily, but through data analysis and trend prediction to find the most reasonable development direction. For example, they use remote sensing to monitor the green coverage rate and find areas where parks need to be added; they use coastline data to predict sea level rise and decide where seawalls need to be built. This makes me think that urban planning is actually a kind of ‘data-driven art’.
 
 *3. Human-centred*
 
 This assignment made me think that although data and technology are important, they ultimately serve people. The government can use remote sensing data to optimise urban planning, but if people are not willing to change their habits, it may be difficult to implement policies.
 
-But if ordinary people are allowed to have access to this data, will it lead to better decision-making? 
+But if ordinary people are allowed to have access to this data, will it lead to better decision-making?
 
 If everyone can view the greening rate and heat island effect index of their neighbourhood through Google Earth Engine as such, this can raise public awareness of environmental protection. If these data are more transparent, citizens may be more willing to participate in urban planning rather than just passively accepting policies.

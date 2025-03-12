@@ -3,28 +3,28 @@ title: "Week 1 Start"
 ---
 
 ## Summary
+
 This week has taken me from *novice* to *beginner* in remote sensing.
 
 **I have learnt：**
 
-1. The basic concepts of remote sensing, the types of sensors (active and passive), and the process by which electromagnetic waves interact with the earth's surface and the atmosphere.
+1.  The basic concepts of remote sensing, the types of sensors (active and passive), and the process by which electromagnetic waves interact with the earth's surface and the atmosphere.
 
-2. Remote sensing is not only satellite images, but also includes data acquired by drones, aircraft and even handheld devices.
+2.  Remote sensing is not only satellite images, but also includes data acquired by drones, aircraft and even handheld devices.
 
-3. the four resolutions of remotely sensed data (spatial, spectral, temporal and radiometric) determine the applicability of the data.
+3.  the four resolutions of remotely sensed data (spatial, spectral, temporal and radiometric) determine the applicability of the data.
 
 **💡：**
 
 The diversity and complexity of remotely sensed data, while offering potential, can also present challenges.
 
-1. How can remote sensing data of different resolutions be integrated? 
+1.  How can remote sensing data of different resolutions be integrated?
 
 (Data fusion may be possible through spatial interpolation, machine learning, etc.)
 
-2. The effects of electromagnetic wave interactions with the atmosphere and surface in practical applications may require corrections to improve the accuracy of the data. 
+2.  The effects of electromagnetic wave interactions with the atmosphere and surface in practical applications may require corrections to improve the accuracy of the data.
 
 (Initial correction using physical models Second Simulation of the Satellite Signal in the Solar Spectrum, MODTRAN, Ross-Thick-LiSparse model, etc., and then further correction of residual errors or prediction of surface through models such as Random Forest, CNN, etc.) parameters)
-
 
 ## Application
 
@@ -38,29 +38,27 @@ Passive sensors (optical sensors...) More suitable for high resolution imaging i
 
 So by combining these two sensors, all-weather and all-terrain surface monitoring can be achieved.
 
-
 **In the literature：**
 
 Studies use SAR data for flood monitoring and forest cover change analysis. This is because the penetration capability of SAR gives it a unique advantage in monitoring deforestation in tropical rainforest areas. However, the disadvantage is that the interpretation of SAR data is more complex and needs to be validated in conjunction with ground observations and other remote sensing data.
 
-
 **💡:**
 
-In addition to traditional environmental monitoring, remote sensing can be used for social issues. 
+In addition to traditional environmental monitoring, remote sensing can be used for social issues.
 
 (Assessing the level of economic development or population distribution by analysing night-time lighting data.)
 
-It may be possible to use remote sensing data to assess meteorological disasters (floods...) 
+It may be possible to use remote sensing data to assess meteorological disasters (floods...)
 
 (Assessing the recovery of affected areas by analysing changes in spectral features before and after floods.)
 
-Also combined with other data sources (e.g. social media or sensor networks) to provide a more comprehensive environmental monitoring programme. 
+Also combined with other data sources (e.g. social media or sensor networks) to provide a more comprehensive environmental monitoring programme.
 
 (Combining disaster reports in social media and remote sensing data to assess disaster impacts in real time.)
 
 ## Reflection
 
-The biggest feeling I got from this week's study is that remote sensing technology is really complex and diverse at the same time, and I feel like I have opened the door to a new world. Although I was a bit confused at first, the more I learnt, the more interesting it became. Especially the SAR data, its penetrating ability simply caught my eyes! In a place like London, where it is always cloudy, SAR is a lifesaver, as it can penetrate the clouds and see what is happening on the ground surface, which will definitely be useful in disaster monitoring and climate change research. Although I am still <span class="text-green">a bronze player</span>, I think I will be able to reach <span class="text-gold">the gold level</span> one day as long as I keep upgrading my skills!
+The biggest feeling I got from this week's study is that remote sensing technology is really complex and diverse at the same time, and I feel like I have opened the door to a new world. Although I was a bit confused at first, the more I learnt, the more interesting it became. Especially the SAR data, its penetrating ability simply caught my eyes! In a place like London, where it is always cloudy, SAR is a lifesaver, as it can penetrate the clouds and see what is happening on the ground surface, which will definitely be useful in disaster monitoring and climate change research. Although I am still [a bronze player]{.text-green}, I think I will be able to reach [the gold level]{.text-gold} one day as long as I keep upgrading my skills!
 
 When it comes to my future research direction, I studied computer science in my undergraduate degree, so I am particularly interested in seeing how machine learning can be applied to remote sensing data analysis. For example, deep learning models can be used to automatically identify the type of ground cover or predict the trend of environmental change. Nowadays, the volume of remote sensing data is so large that manual analysis alone is definitely not enough, and if AI can be used to help, the efficiency will definitely be greatly improved. Moreover, machine learning can also discover some patterns from the data that we can't see with the naked eye, which feels especially cool!
 

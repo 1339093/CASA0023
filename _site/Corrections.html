@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CASA0023 - About</title>
+<title>Week 3 Corrections</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -71,52 +70,20 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      CASA0023
-      </li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
-</header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">CASA0023</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Week 3 Corrections</h1>
 </div>
 
 
@@ -133,9 +100,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>The main content of this week is <strong>Correction and Enhancement of Remote Sensing Data</strong>, focusing on the techniques of <strong>Atmospheric Correction</strong>, <strong>Geometric Correction</strong> and <strong>Data Fusion</strong>. Through practice, I mastered how to perform atmospheric correction on remote sensing images using the <strong>Dark Object Subtraction (DOS)</strong> method, and learnt how to stitch (Mosaicking) multiple remote sensing images into a seamless whole. There was also exposure to <strong>Image Enhancement</strong> techniques such as <strong>Filtering</strong>, <strong>Texture Analysis</strong>, and <strong>Principal Component Analysis (PCA)</strong>, which can help us extract more useful information from remotely sensed data.</p>
+<p><strong>💡:</strong></p>
+<ol type="1">
+<li>atmospheric correction is a very important step in remote sensing data processing, but different correction methods (e.g., DOS and COST) are suitable for different scenarios.</li>
+</ol>
+<p>DOS is suitable for simple scenarios, while COST is more suitable for complex atmospheric conditions.</p>
+<ol start="2" type="1">
+<li>image enhancement techniques (e.g.&nbsp;PCA and texture analysis) can help us extract more information from the data, but do these methods lead to over-processing or distortion of the information? How can we enhance images while maintaining the fidelity of the data?</li>
+</ol>
+<p>(Control the degree of processing during image enhancement, e.g.&nbsp;select principal components with more than the first 95% of variance information instead of all principal components. After enhancement, use the original data for comparison to ensure that the data features have not been overly modified.)</p>
+<p>González, R. C., &amp; Woods, R. E. (2018). Digital image processing. also covered in detail in the book Pearson Education.(I haven’t finished it yet…😁)</p>
+</section>
+<section id="application" class="level2">
+<h2 class="anchored" data-anchor-id="application">Application</h2>
+<p>The content learnt this week has potential for a wide range of applications in environmental monitoring, land use classification and disaster management. For example, atmospheric correction can be used to improve the accuracy of remotely sensed data, especially in cloudy or heavily atmospherically polluted areas. With image enhancement techniques, we can better identify surface features such as vegetation cover, water distribution and urban sprawl.</p>
+<p><strong>In the literature</strong></p>
+<p>Many studies have used atmospheric correction and image enhancement techniques to improve the quality of remotely sensed data. For example, some studies have used DOS methods to correct Landsat data to improve the accuracy of vegetation indices such as NDVI. However, there are some limitations to these methods, such as the fact that DOS methods may not be able to completely remove atmospheric effects when atmospheric conditions are complex.</p>
+<p><strong>💡:</strong></p>
+<p>Can remote sensing data correction and enhancement techniques be used in areas other than traditional environmental monitoring? For example, in urban planning, corrected remote sensing data are used to assess the urban heat island effect.</p>
+<p>There have been some applications in the literature: the surface radiation temperature of Shenzhen City was inverted using the Split Window Algorithm (SWA) and the Atmospheric Correction Method (ARC).</p>
+<p><em>Reference：</em>Zhang Xiaomin,Liu Zhiwei,Fang Han,et al.&nbsp;Spatial and temporal distribution of urban heat island effect and land use impacts in Shenzhen based on Landsat 8 TIRS surface temperature data inversion[J]. Climate and Environment Research,2023,28(3):242-250. DOI:10.3878/j.issn.1006-9585.2022.21160.</p>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<p>After this week’s study, I feel that the correction and enhancement techniques of remote sensing data are really quite complicated, but also very interesting. Especially the atmospheric correction, although I found it a bit difficult to understand at first, but through the DOS method, I slowly understood its basic principles and was able to get my hands on it.</p>
+<p>Can these techniques be combined with <strong>AI</strong> in the future? For example, using AI to automatically identify which areas require more complex atmospheric corrections, or using machine learning models to predict which image enhancement methods are best suited to a particular surface feature. This would not only improve efficiency, but also make the processing of remote sensing data smarter.</p>
+<p>It also occurs to me that remote sensing data correction and enhancement techniques could be combined with <strong>VR or AR</strong>?</p>
+<p>For example, the corrected remote sensing data can be imported into a VR environment, so that researchers or decision makers can ‘walk into’ the remote sensing images and visualise the changes on the ground surface. Or using AR technology to overlay remote sensing data onto the real world to help urban planners better understand the impacts of urban sprawl. This combination may make the application of remote sensing technology more intuitive and interesting.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

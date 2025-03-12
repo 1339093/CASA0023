@@ -1,1 +1,14 @@
 /* css styles */
+
+.text-red {
+    color: pink;
+}
+.text-blue {
+    color: lightblue;
+}
+.text-green {
+    color: lightgreen;
+}
+.text-gold{
+    color:gold;
+}
